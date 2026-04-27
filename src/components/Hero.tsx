@@ -145,9 +145,12 @@ export default function Hero() {
                           {t('hero_stat_1_v')}
                         </div>
                       </div>
-                      <div className="size-12 rounded-full bg-gold-400 grid place-items-center shadow-lg shadow-gold-500/30">
+                      <a href="#managers">
+                        <div className="size-12 rounded-full bg-gold-400 grid place-items-center shadow-lg shadow-gold-500/30">
                         <ArrowRight className="size-5 text-brand-800" strokeWidth={2.6} />
                       </div>
+                      </a>
+                      
                     </div>
                   </div>
                 </div>
